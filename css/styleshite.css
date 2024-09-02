@@ -1,0 +1,483 @@
+html, body {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(238, 238, 226);
+   }
+
+   .container{
+    max-width: 920px;
+    margin: 0 auto;
+   }
+
+   #content img {
+position: absolute;
+top: 0;
+left: 0;
+width: 150%;
+height: 60%;
+object-fit: cover;
+padding-top: 5.3em;
+opacity: 15;
+
+   }
+    #header  {
+        margin: 0;
+        padding: 0;
+        border: 1px solid;
+        width: 100%;
+        background-color: #333;
+        height: 80px;
+        position: sticky;
+        top: 0;
+    }
+
+    
+    #header > .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 1em;
+        float: left; 
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    img {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        margin-left: -50%;
+        padding-top: 5em;
+    }
+    
+    #cta a:first {
+    background: rgba(183, 183, 218, 0.966);
+    position: fixed;
+    text-align: center;
+    height: 25px;
+    width: 60px;  
+    margin-left: -400px;
+    margin-top: 0.4em;
+    padding-top: 0.7em; 
+    font-size: 0.9em;
+    font-weight: bolder;
+    border-radius: 15%; 
+    }
+
+    #log {
+    margin-left: 1100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-radius: 20%;
+    border-bottom-style: dotted;
+    font-size: 0.9em;  
+    }
+    #give {
+    position: absolute;
+    margin-left: 1050px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    }
+    #welcome {
+        position: absolute;
+        text-align: center;
+        margin-top: 400px;
+        font-size: 3em;
+        color: white;
+    }
+    p{ 
+        position: absolute;
+        text-align: center;
+        margin-top: 105px;
+        font-size: 0.5em;
+    }
+    #members {
+        position: absolute;
+        text-align: center;
+        margin-top:250px;
+        font-size: 0.4em;
+        background-color: grey
+        
+    }
+
+    #members{ 
+        padding: 0.5em;
+        color: wheat;
+        /* border-color: blueviolet; */
+        border-radius: 10px;
+        border-bottom: #333;
+        border-bottom-color: black;
+        border-style: outset;
+    }
+
+    #welcome1 {
+        position: absolute;
+        text-align:left;
+        margin-top:1000px;
+        font-size: 1.8em;
+        margin-left: -70%;
+        color: black
+    }
+
+    #welcome2 {
+        position: absolute;
+        text-align:left;
+        margin-top:1054px;
+        font-size: 1.5em;
+        margin-left: -64%;
+        color: gray
+    }
+
+    #experience {
+        position: absolute;
+        text-align:left;
+        margin-top:1300px;
+        font-size: 1.1em;
+        margin-left: 9%;
+        margin-right: 10%;
+        /* this session is for VIP, Download & Fine */
+    }
+     #left {
+        position: absolute;
+        text-align: center;
+        font-size: 1em;
+        margin-top: 1650px;
+        margin-right: 58%;
+        margin-left: 0px;
+        background-color: rgb(231, 244, 252);
+        padding: 6.5em;    
+    }
+    #center {
+        position: absolute;
+        text-align: left;
+        font-size: 1em;
+        margin-top: 1650px;
+        margin-right:100px;
+        margin-left: 210px;
+        background-color: rgb(231, 244, 252);
+        padding: 7em; 
+         
+    }
+    #right {
+        position: absolute;
+        text-align: left;
+        font-size: 1em;
+        margin-top: 1650px;
+        margin-right: -685px;
+        margin-left: 190px;
+        background-color: rgb(231, 244, 252);
+        padding: 7em; 
+    }
+    #vip a {
+        position: absolute;
+        margin-top: 1750px;
+        margin-right: 30%;
+        margin-left: -130%;
+        color: white;
+        padding: 1em;
+        background-color: rgb(93, 91, 95);
+        border-radius: 10px;
+        border-bottom: #333;
+        border-bottom-color: black;
+        border-style: outset;
+    }
+    #download a {
+        position: absolute;
+        margin-top: 1750px;
+        margin-right: 30%;
+        margin-left: -65%;
+        color: white;
+        padding: 1em;
+        background-color: rgb(93, 91, 95);
+        border-radius: 10px;
+        border-bottom: #333;
+        border-bottom-color: black;
+        border-style: outset;
+    }
+
+
+    #find a {
+        position: absolute;
+        margin-top: 1750px;
+        margin-right: 30px;
+        margin-left: -35%;
+        color: white;
+        padding: 1em;
+        background-color: rgb(93, 91, 95);
+        border-radius: 10px;
+        border-bottom: #333;
+        border-bottom-color: black;
+        border-style: outset;
+    }
+    #here {
+        position: absolute;
+        text-align:left;
+        margin-top:2000px;
+        font-size: 1.2em;
+        margin-left: -1%;
+        color: gray
+    }
+    /* line 218 is the 3rd session of my work  */
+    #latest {
+        position: absolute;
+        text-align:left;
+        margin-top:2050px;
+        font-size: 2em;
+        margin-left: -1%;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+/* this session decribe images for links */
+    .container img{
+        /* position: absolute; */
+        position: relative;
+        width: 250px;
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 320%;
+        padding-right: 40px; 
+    }
+    #uncategorized {
+        position: absolute;
+        font-size: 1em;
+        text-align: left;
+        color: white;
+        background-color: grey;
+        padding: 0.5em;
+        margin-left: 17%;
+        margin-right: 1000px;
+        margin-top: -39px;
+    }
+    #month {
+        position: absolute;
+        font-size: 1em;
+        text-align: left;
+        color: white;
+        background-color: grey;
+        padding: 0.5em;
+        margin-left: 34%;
+        margin-right: 0;
+        margin-top: -39px;
+    }
+    #blog {
+        position: absolute;
+        font-size: 1em;
+        text-align: left;
+        color: white;
+        background-color: grey;
+        padding: 0.5em;
+        margin-left: 65.5%;
+        margin-right: 0;
+        margin-top: -39px;
+    }
+    #word {
+        position: absolute;
+        font-size: 1em;
+        text-align: left;
+        color: white;
+        background-color: grey;
+        padding: 0.5em;
+        margin-left: 78.4%;
+        margin-right: 0;
+        margin-top: -39px; 
+    }
+    .container h3 a {
+        position: absolute;
+        color: black;
+        text-align: center;
+        background-color: white;
+        margin-left: -45%;
+        margin-right: -110;
+        padding: 1em;
+        padding-right: 3.3%;
+    }
+    /* welcome to september nav */
+   .container p {
+    position: absolute;
+        color: black;
+        text-align: left;
+        background-color: white;
+        margin-left: -45%;
+        margin-right: 75%;
+        padding: 0.6em;
+        padding-bottom: 4em;
+        font-size: 1.2em;
+        margin-top: 35px; 
+
+        
+   }
+    section h4  a {
+        position: absolute;
+        color: black;
+        text-align: center;
+        background-color: white;
+        margin-left: -300px;
+        margin-right: -100px;
+        padding: 1em;
+        padding-right: 3.3%;
+   }
+ #moneymarch {
+    position: absolute;
+    color: black;
+    text-align: left;
+    background-color: white;
+    margin-left: -300px;
+    margin-right: 715px;
+    padding: 0.6em;
+    font-size: 1.2em;
+    margin-top: 35px; 
+    padding-bottom: 4em;
+ }
+
+ section h5 a  {
+    position: absolute;
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 1.2em;
+    margin-left: -5px;
+    margin-right: 0;
+    padding: 1.2em;
+    padding-right: 3.3%;
+}
+
+#shepherd {
+    position: absolute;
+    color: black;
+    text-align: left;
+    background-color: white;
+    margin-left: -5px;
+    margin-right: 410px;
+    padding: 0.6em;
+    font-size: 1.2em;
+    margin-top: 35px; 
+    padding-bottom: 4em;
+ }
+
+ section h6 a  {
+    position: absolute;
+    color: black;
+    text-align: center;
+    background-color: white;
+    font-size: 1.6em;
+    margin-left: 300px;
+    margin-right: -50%;
+    padding: 1em;
+    padding-right: 7.2%;
+}
+
+#congratulations {
+    position: absolute;
+    color: black;
+    text-align: left;
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 120px;
+    padding: 0.6em;
+    font-size: 1.2em;
+    margin-top: 35px; 
+    padding-bottom: 4em;
+ }
+/* Read more section */
+ #Read {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 370px;
+    margin-left: -1000px;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+ }
+
+ #Read1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 150px;
+    margin-left: 450px;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+ }
+
+ #Read2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 150px;
+    margin-left: 720px;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+ }
+
+ #Read3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 150px;
+    margin-left: 1020px;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+ }
+
+ #Read4 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 300px;
+    margin-left: 550px;
+    color: white;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+ }
+/* 2nd image section */
+#bob img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1700px;
+    width: 150%;
+    height: 80%;
+    object-fit: cover;
+    padding-top: 5.3em;
+    
+
+       }
+ 
+ 
