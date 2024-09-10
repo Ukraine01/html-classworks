@@ -1,482 +1,1133 @@
-html, body {
-    margin: auto;
-    width: 100%;
-    background-color: rgb(238, 238, 226);
-   }
+html,
+body {
+  margin: auto;
+  width: 100%;
+  background-color: rgb(238, 238, 226);
+}
 
-   .container{
-    max-width: 920px;
-    margin: 0 auto;
-   }
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
 
-   #content img {
-position: absolute;
-top: 0;
-left: 0;
-width: 150%;
-height: 60%;
-object-fit: cover;
-padding-top: 5.3em;
-opacity: 15;
+.container a img {
+  margin-top: 5px;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 0;
+  background-color: whitesmoke;
+}
 
-   }
-    #header  {
-        margin: 0;
-        padding: 0;
-        border: 1px solid;
-        width: 100%;
-        background-color: #333;
-        height: 80px;
-        position: sticky;
-        top: 0;
-    }
+#content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  padding-top: 5.3em;
+  opacity: 15;
+}
+#header {
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+  width: 100%;
+  background-color: #333;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  opacity: 0.9;
+}
 
-    #header > .container {
-        display: flex;
-        justify-content: space-between;
-    }
+#header > .container {
+  display: flex;
+  justify-content: space-between;
+}
 
-    li {
-        list-style-type: none;
-        padding: 1em;
-        float: left; 
-    }
+li {
+  list-style-type: none;
+  padding: 1em;
+  float: left;
+}
 
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    img {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        margin-left: -50%;
-        padding-top: 5em;
-    }
-    
-    #cta a:first {
-    background: rgba(183, 183, 218, 0.966);
-    position: fixed;
-    text-align: center;
-    height: 25px;
-    width: 60px;  
-    margin-left: -400px;
-    margin-top: 0.4em;
-    padding-top: 0.7em; 
-    font-size: 0.9em;
-    font-weight: bolder;
-    border-radius: 15%; 
-    }
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    #log {
-    margin-left: 1100px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    border-radius: 20%;
-    border-bottom-style: dotted;
-    font-size: 0.9em;  
-    }
-    #give {
-    position: absolute;
-    margin-left: 1050px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif; 
-    }
-    #welcome {
-        position: absolute;
-        text-align: center;
-        margin-top: 400px;
-        font-size: 3em;
-        color: white;
-    }
-    p{ 
-        position: absolute;
-        text-align: center;
-        margin-top: 105px;
-        font-size: 0.5em;
-    }
-    #members {
-        position: absolute;
-        text-align: center;
-        margin-top:250px;
-        font-size: 0.4em;
-        background-color: grey
-        
-    }
+#cta a {
+  background: rgba(183, 183, 218, 0.966);
+  position: fixed;
+  text-align: center;
+  height: 25px;
+  width: 60px;
+  margin-left: 150px;
+  margin-top: 0.4em;
+  padding-top: 0.7em;
+  font-size: 0.9em;
+  font-weight: bolder;
+  border-radius: 15%;
+}
 
-    #members{ 
-        padding: 0.5em;
-        color: wheat;
-        /* border-color: blueviolet; */
-        border-radius: 10px;
-        border-bottom: #333;
-        border-bottom-color: black;
-        border-style: outset;
-    }
+#ctb a {
+  position: fixed;
+  text-align: center;
+  height: 25px;
+  width: 60px;
+  margin-left: 320px;
+  margin-top: 0.4em;
+  padding-top: 0.7em;
+  font-size: 0.9em;
+}
+#welcome {
+  position: absolute;
+  text-align: center;
+  margin-top: 400px;
+  font-size: 3em;
+  color: white;
+}
 
-    #welcome1 {
-        position: absolute;
-        text-align:left;
-        margin-top:1000px;
-        font-size: 1.8em;
-        margin-left: -70%;
-        color: black
-    }
+p {
+  position: absolute;
+  text-align: center;
+  margin-top: 105px;
+  font-size: 0.5em;
+}
+#members {
+  position: absolute;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 0.4em;
+  background-color: grey;
+}
 
-    #welcome2 {
-        position: absolute;
-        text-align:left;
-        margin-top:1054px;
-        font-size: 1.5em;
-        margin-left: -64%;
-        color: gray
-    }
+#members {
+  padding: 0.5em;
+  color: wheat;
+  /* border-color: blueviolet; */
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 
-    #experience {
-        position: absolute;
-        text-align:left;
-        margin-top:1300px;
-        font-size: 1.1em;
-        margin-left: 9%;
-        margin-right: 10%;
-        /* this session is for VIP, Download & Fine */
-    }
-     #left {
-        position: absolute;
-        text-align: center;
-        font-size: 1em;
-        margin-top: 1650px;
-        margin-right: 58%;
-        margin-left: 0px;
-        background-color: rgb(231, 244, 252);
-        padding: 6.5em;    
-    }
-    #center {
-        position: absolute;
-        text-align: left;
-        font-size: 1em;
-        margin-top: 1650px;
-        margin-right:100px;
-        margin-left: 210px;
-        background-color: rgb(231, 244, 252);
-        padding: 7em; 
-         
-    }
-    #right {
-        position: absolute;
-        text-align: left;
-        font-size: 1em;
-        margin-top: 1650px;
-        margin-right: -685px;
-        margin-left: 190px;
-        background-color: rgb(231, 244, 252);
-        padding: 7em; 
-    }
-    #vip a {
-        position: absolute;
-        margin-top: 1750px;
-        margin-right: 30%;
-        margin-left: -130%;
-        color: white;
-        padding: 1em;
-        background-color: rgb(93, 91, 95);
-        border-radius: 10px;
-        border-bottom: #333;
-        border-bottom-color: black;
-        border-style: outset;
-    }
-    #download a {
-        position: absolute;
-        margin-top: 1750px;
-        margin-right: 30%;
-        margin-left: -65%;
-        color: white;
-        padding: 1em;
-        background-color: rgb(93, 91, 95);
-        border-radius: 10px;
-        border-bottom: #333;
-        border-bottom-color: black;
-        border-style: outset;
-    }
+#welcome1 {
+  position: absolute;
+  text-align: left;
+  margin-top: 1000px;
+  font-size: 1.8em;
+  margin-left: -70%;
+  color: black;
+}
 
+#welcome2 {
+  position: absolute;
+  text-align: left;
+  margin-top: 1054px;
+  font-size: 1.5em;
+  margin-left: -64%;
+  color: gray;
+}
 
-    #find a {
-        position: absolute;
-        margin-top: 1750px;
-        margin-right: 30px;
-        margin-left: -35%;
-        color: white;
-        padding: 1em;
-        background-color: rgb(93, 91, 95);
-        border-radius: 10px;
-        border-bottom: #333;
-        border-bottom-color: black;
-        border-style: outset;
-    }
-    #here {
-        position: absolute;
-        text-align:left;
-        margin-top:2000px;
-        font-size: 1.2em;
-        margin-left: -1%;
-        color: gray
-    }
-    /* line 218 is the 3rd session of my work  */
-    #latest {
-        position: absolute;
-        text-align:left;
-        margin-top:2050px;
-        font-size: 2em;
-        margin-left: -1%;
-        color: black;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-    }
+#experience {
+  position: absolute;
+  text-align: left;
+  margin-top: 1300px;
+  font-size: 1.1em;
+  margin-left: 9%;
+  margin-right: 10%;
+  /* this session is for VIP, Download & Fine */
+}
+#left {
+  position: absolute;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 1650px;
+  margin-right: 58%;
+  margin-left: 0px;
+  background-color: rgb(231, 244, 252);
+  padding: 6.5em;
+}
+#center {
+  position: absolute;
+  text-align: left;
+  font-size: 1em;
+  margin-top: 1650px;
+  margin-right: 100px;
+  margin-left: 210px;
+  background-color: rgb(231, 244, 252);
+  padding: 7em;
+}
+#right {
+  position: absolute;
+  text-align: left;
+  font-size: 1em;
+  margin-top: 1650px;
+  margin-right: -600px;
+  margin-left: 190px;
+  background-color: rgb(231, 244, 252);
+  padding: 7em;
+}
+#vip a {
+  position: absolute;
+  margin-top: 1750px;
+  margin-right: 70px;
+  margin-left: 830px;
+  color: white;
+  padding: 1em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
+#download a {
+  position: absolute;
+  margin-top: 1750px;
+  margin-right: 30%;
+  margin-left: -30%;
+  color: white;
+  padding: 1em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
+
+#find a {
+  position: absolute;
+  margin-top: 1750px;
+  margin-right: -50px;
+  margin-left: 10px;
+  color: white;
+  padding: 1em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
+#here {
+  position: absolute;
+  text-align: left;
+  margin-top: 2000px;
+  font-size: 1.2em;
+  margin-left: -1%;
+  color: gray;
+}
+/* line 218 is the 3rd session of my work  */
+#latest {
+  position: absolute;
+  text-align: left;
+  margin-top: 2050px;
+  font-size: 2em;
+  margin-left: -1%;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
 /* this session decribe images for links */
-    .container img{
-        /* position: absolute; */
-        position: relative;
-        width: 250px;
-        height: 200px;
-        margin-left: 5px;
-        margin-top: 320%;
-        padding-right: 40px; 
-    }
-    #uncategorized {
-        position: absolute;
-        font-size: 1em;
-        text-align: left;
-        color: white;
-        background-color: grey;
-        padding: 0.5em;
-        margin-left: 17%;
-        margin-right: 1000px;
-        margin-top: -39px;
-    }
-    #month {
-        position: absolute;
-        font-size: 1em;
-        text-align: left;
-        color: white;
-        background-color: grey;
-        padding: 0.5em;
-        margin-left: 34%;
-        margin-right: 0;
-        margin-top: -39px;
-    }
-    #blog {
-        position: absolute;
-        font-size: 1em;
-        text-align: left;
-        color: white;
-        background-color: grey;
-        padding: 0.5em;
-        margin-left: 65.5%;
-        margin-right: 0;
-        margin-top: -39px;
-    }
-    #word {
-        position: absolute;
-        font-size: 1em;
-        text-align: left;
-        color: white;
-        background-color: grey;
-        padding: 0.5em;
-        margin-left: 78.4%;
-        margin-right: 0;
-        margin-top: -39px; 
-    }
-    .container h3 a {
-        position: absolute;
-        color: black;
-        text-align: center;
-        background-color: white;
-        margin-left: -45%;
-        margin-right: -110;
-        padding: 1em;
-        padding-right: 3.3%;
-    }
-    /* welcome to september nav */
-   .container p {
-    position: absolute;
-        color: black;
-        text-align: left;
-        background-color: white;
-        margin-left: -45%;
-        margin-right: 75%;
-        padding: 0.6em;
-        padding-bottom: 4em;
-        font-size: 1.2em;
-        margin-top: 35px; 
+#image a img {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  margin-left: 5px;
+  margin-top: 360%;
+  padding-right: 40px;
+}
+#uncategorized {
+  position: absolute;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  background-color: grey;
+  padding: 0.5em;
+  margin-left: 14.8%;
+  margin-right: 1000px;
+  margin-top: -39px;
+}
+#month {
+  position: absolute;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  background-color: grey;
+  padding: 0.5em;
+  margin-left: 33.1%;
+  margin-right: 0;
+  margin-top: -39px;
+}
+#blog {
+  position: absolute;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  background-color: grey;
+  padding: 0.5em;
+  margin-left: 66.5%;
+  margin-right: 0;
+  margin-top: -39px;
+}
+#word {
+  position: absolute;
+  font-size: 1em;
+  text-align: left;
+  color: white;
+  background-color: grey;
+  padding: 0.5em;
+  margin-left: 80.2%;
+  margin-right: 0;
+  margin-top: -39px;
+}
+.container h3 a {
+  position: absolute;
+  color: black;
+  text-align: center;
+  background-color: white;
+  margin-left: -47%;
+  margin-right: -110;
+  padding: 1em;
+  padding-right: 3.3%;
+}
+/* welcome to september nav */
+.container p {
+  position: absolute;
+  color: black;
+  text-align: left;
+  background-color: white;
+  margin-left: -47%;
+  margin-right: 75.9%;
+  padding: 0.6em;
+  padding-bottom: 4em;
+  font-size: 1.2em;
+  margin-top: 35px;
+}
+section h4 a {
+  position: absolute;
+  color: black;
+  text-align: center;
+  background-color: white;
+  margin-left: -296px;
+  margin-right: -100px;
+  padding: 1em;
+  padding-right: 3.3%;
+}
+#moneymarch {
+  position: absolute;
+  color: black;
+  text-align: left;
+  background-color: white;
+  margin-left: -296px;
+  margin-right: 675px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 35px;
+  padding-bottom: 4em;
+}
 
-        
-   }
-    section h4  a {
-        position: absolute;
-        color: black;
-        text-align: center;
-        background-color: white;
-        margin-left: -300px;
-        margin-right: -100px;
-        padding: 1em;
-        padding-right: 3.3%;
-   }
- #moneymarch {
-    position: absolute;
-    color: black;
-    text-align: left;
-    background-color: white;
-    margin-left: -300px;
-    margin-right: 715px;
-    padding: 0.6em;
-    font-size: 1.2em;
-    margin-top: 35px; 
-    padding-bottom: 4em;
- }
-
- section h5 a  {
-    position: absolute;
-    color: black;
-    text-align: center;
-    background-color: white;
-    font-size: 1.2em;
-    margin-left: -5px;
-    margin-right: 0;
-    padding: 1.2em;
-    padding-right: 3.3%;
+section h5 a {
+  position: absolute;
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 1.2em;
+  margin-left: -5px;
+  margin-right: 0;
+  padding: 1.2em;
+  padding-right: 3.3%;
 }
 
 #shepherd {
-    position: absolute;
-    color: black;
-    text-align: left;
-    background-color: white;
-    margin-left: -5px;
-    margin-right: 410px;
-    padding: 0.6em;
-    font-size: 1.2em;
-    margin-top: 35px; 
-    padding-bottom: 4em;
- }
+  position: absolute;
+  color: black;
+  text-align: left;
+  background-color: white;
+  margin-left: -5px;
+  margin-right: 373px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 35px;
+  padding-bottom: 4em;
+}
 
- section h6 a  {
-    position: absolute;
-    color: black;
-    text-align: center;
-    background-color: white;
-    font-size: 1.6em;
-    margin-left: 300px;
-    margin-right: -50%;
-    padding: 1em;
-    padding-right: 7.2%;
+section h6 a {
+  position: absolute;
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 1.6em;
+  margin-left: 300px;
+  margin-right: -50%;
+  padding: 1em;
+  padding-right: 7.2%;
 }
 
 #congratulations {
-    position: absolute;
-    color: black;
-    text-align: left;
-    background-color: white;
-    margin-left: 300px;
-    margin-right: 120px;
-    padding: 0.6em;
-    font-size: 1.2em;
-    margin-top: 35px; 
-    padding-bottom: 4em;
- }
+  position: absolute;
+  color: black;
+  text-align: left;
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 87px;
+  padding: 0.6em;
+  font-size: 1.2em;
+  margin-top: 35px;
+  padding-bottom: 4em;
+}
 /* Read more section */
- #Read {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 370px;
-    margin-left: -1000px;
-    color: white;
-    padding: 0.5em;
-    background-color: rgb(93, 91, 95);
-    border-radius: 10px;
-    border-bottom: #333;
-    border-bottom-color: black;
-    border-style: outset;
- }
+#Read {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 370px;
+  margin-left: -910px;
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 
- #Read1 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 150px;
-    margin-left: 450px;
-    color: white;
-    padding: 0.5em;
-    background-color: rgb(93, 91, 95);
-    border-radius: 10px;
-    border-bottom: #333;
-    border-bottom-color: black;
-    border-style: outset;
- }
+#Read1 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 150px;
+  margin-left: 420px;
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 
- #Read2 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 150px;
-    margin-left: 720px;
-    color: white;
-    padding: 0.5em;
-    background-color: rgb(93, 91, 95);
-    border-radius: 10px;
-    border-bottom: #333;
-    border-bottom-color: black;
-    border-style: outset;
- }
+#Read2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 150px;
+  margin-left: 720px;
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 
- #Read3 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 150px;
-    margin-left: 1020px;
-    color: white;
-    padding: 0.5em;
-    background-color: rgb(93, 91, 95);
-    border-radius: 10px;
-    border-bottom: #333;
-    border-bottom-color: black;
-    border-style: outset;
- }
+#Read3 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 150px;
+  margin-left: 1020px;
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 
- #Read4 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    margin-top: 300px;
-    margin-left: 550px;
-    color: white;
-    padding: 0.5em;
-    background-color: rgb(93, 91, 95);
-    border-radius: 10px;
-    border-bottom: #333;
-    border-bottom-color: black;
-    border-style: outset;
- }
+#Read4 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 300px;
+  margin-left: 550px;
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
 /* 2nd image section */
 #bob img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1650px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  padding-top: 5.3em;
+  opacity: 0.7;
+}
+
+#papaimage a img {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  margin-left: 5px;
+  margin-top: 200%;
+  padding-right: 30px;
+}
+
+#recent {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -22%;
+  margin-left: 8%;
+  color: white;
+}
+
+#recent p {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80%;
+  margin-left: 8%;
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+#viewmore {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin-top: 70px;
+  margin-left: 640px;
+  padding: 0.5em;
+  background-color: rgb(93, 91, 95);
+  border-radius: 10px;
+  border-bottom: #333;
+  border-bottom-color: black;
+  border-style: outset;
+}
+
+#pastor img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  margin-left: -650px;
+  margin-top: 60%;
+}
+#connect {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20%;
+  text-align: left;
+  margin-left: 40%;
+  color: black;
+  font-size: 1.5em;
+  color: cornflowerblue;
+}
+
+#connect p {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 45%;
+  margin-left: -30px;
+  margin-right: -100px;
+  color: black;
+  font-size: 1.2em;
+  color: navy;
+  font-weight: bolder;
+}
+
+#George {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25%;
+  margin-right: 20%;
+  margin-left: 40%;
+  text-align: justify;
+  color: black;
+  font-size: 1em;
+  color: black;
+}
+
+#sermon {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50%;
+  text-align: left;
+  margin-left: 45%;
+  color: black;
+  font-size: 1.5em;
+  color: cornflowerblue;
+}
+
+#sermon p {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 80%;
+  margin-left: -65px;
+  margin-right: -100px;
+  color: black;
+  font-size: 1.2em;
+  color: navy;
+  font-weight: bolder;
+}
+#socialmedia img {
+  position: relative;
+  margin-top: 740%;
+  width: 55px;
+  height: 50px;
+  justify-content: space-between;
+  background-color: rgb(238, 238, 226);
+}
+
+#sermomimage img {
+  position: relative;
+  width: 350px;
+  height: 160px;
+  margin-left: 5px;
+  margin-top: 20%;
+  padding-right: 30px;
+}
+
+#george1 {
+  position: relative;
+  float: left;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -120px;
+  margin-left: 13%;
+  color: white;
+  font-size: rgba(183, 183, 218, 0.966) em;
+}
+
+/* sermon section */
+#george2 {
+  position: relative;
+  float: left;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -120px;
+  margin-left: 43%;
+  color: white;
+  font-size: rgba(183, 183, 218, 0.966) em;
+}
+
+#george3 {
+  position: relative;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -120px;
+  margin-left: 60%;
+  color: white;
+  font-size: rgba(183, 183, 218, 0.966) em;
+}
+
+#george4 {
+  position: absolute;
+  letter-spacing: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 0px;
+  padding: 0.2em;
+  margin-left: 9%;
+  color: white;
+  font-size: 1.5em;
+}
+
+#george5 {
+  position: absolute;
+  letter-spacing: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0.2em;
+  margin-top: 0px;
+  margin-left: 39%;
+  color: white;
+  font-size: 1.5em;
+}
+#george6 {
+  position: absolute;
+  letter-spacing: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 0px;
+  padding: 0.2em;
+  margin-left: 70%;
+  color: white;
+  font-size: 1.5em;
+}
+
+#george7 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 40px;
+  padding: 0.2em;
+  margin-left: 11%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+#george7 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+#george8 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 40px;
+  padding: 0.2em;
+  margin-left: 42%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+#george8 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+
+#george9 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 40px;
+  padding: 0.2em;
+  margin-left: 73%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#george9 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+
+#george10 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 105px;
+  padding: 0.2em;
+  margin-left: -55%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#george10 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+
+#george11 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 105px;
+  padding: 0.2em;
+  margin-left: 7%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#george11 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+
+#george12 {
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 105px;
+  padding: 0.2em;
+  margin-left: 70%;
+  color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#george12 :hover {
+  background-color: cadetblue;
+  border-style: outset;
+}
+
+#george13 {
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 1700px;
-    width: 150%;
-    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 118px;
+    margin-left: 7%;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000;
+  }
+
+  #george13 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 118px;
+    margin-left: 7%;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000;
+  }
+
+  #george14 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 118px;
+    margin-left: 38%;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000;
+  }
+  #george15 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 118px;
+    margin-left: 72%;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000
+  }
+
+  #viewmore2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 400px;
+    align-items: center;
+    padding: 0.5em;
+    background-color: rgb(93, 91, 95);
+    border-radius: 10px;
+    border-bottom: #333;
+    border-bottom-color: black;
+    border-style: outset;
+  }
+
+  /* connect with us section */
+  #grainsoil img {
+    position: absolute;
+    margin-top: 900px;
+    width: 100%;
+    height: 70%;
     object-fit: cover;
     padding-top: 5.3em;
-    
+    opacity: 0.5;
+  }
 
-       }
+  #wheelchair img {
+    position: absolute;
+    margin-top: 1890px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 5.3em;
+    opacity: 0.5;
+    
+  }
+  #connect2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50%;
+    margin-left: -70%;
+    color: navy; 
+    font-size: 1.5em;
+  }
+  
+  #connect2 p {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60%;
+    margin-left: 0%;
+    margin-right: 20%;
+    color: white;
+    font-size: 1.2em;
+    color: navy;
+    font-weight: bolder;
+  }
+
+  #connectpix img {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 80%;
+    margin-left: -70%;
+  }
+  #connectpix2 img {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 80%;
+    margin-left: -25%;
+  }
+  #connectpix3 img {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 80%;
+    margin-left: 20%;
+  }
+  #connectpix4 img {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    margin-top: 80%;
+    margin-left: 65%;
+  }
+
+  #missions {
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 0.5em;
+    padding-left: 6.4%;
+    padding-right: 6.4%;
+    margin-left: 9.2%;
+    margin-right: 1000px;
+    margin-top: 93.5%;
+  }
+  #missions :hover{
+    color: rgb(58, 0, 128);
+  }
+  #outreach {
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 0.5em;
+    padding-left: 1.6%;
+    padding-right: 1.5%;
+    margin-left: -25%;
+    margin-top: 92.5%;
+  }
+  #outreach :hover{
+    color: rgb(58, 0, 128);
+  }
+  #men {
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    padding: 0.5em;
+    padding-left: 4.2%;
+    padding-right: 4.5%;
+    margin-left: 20%;
+    margin-top: 92.5%;
+  }
+  #men :hover{
+    color: rgb(58, 0, 128);
+  }
+  #women {
+    position: absolute;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: grey;
+    padding: 0.5em;
+    padding-right: 1.9%;
+    padding-left: 1.9%;
+    margin-left: 65%;
+    margin-top: 92%;
+  }
+  #women :hover{
+    color: rgb(58, 0, 128);
+  }
  
- 
+  #amazing {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120%;
+    text-align: center;
+    font-size: 1.5em;
+   
+    color: white
+  }
+  
+  #amazing p {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80%;
+    text-align: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: bold;
+    
+  }
+   /* Application section */
+   #appmobil img {
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    margin-top: 250%;
+    margin-left: -40%;
+  }
+  #google img {
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    margin-top: 125%;
+    margin-left: 6%;
+  }
+  #appstore img {
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    margin-top: 125%;
+    margin-left: 22%;
+  }
+  #gicconnect {
+    position: absolute;
+    margin-top: 110%;
+    text-align: left;
+    margin-left: 56%;
+    color: #000;
+    font-size: 1em;
+  }
+  #gicconnect p {
+    position: absolute;
+    margin-top: 30%;
+    text-align: left;
+    margin-left: 4%;
+    margin-left: 0%;
+    color: navy;
+    font-size: 2.3em;
+    font-weight: bold;
+  }
+  #ourapp {
+    position: absolute;
+    text-align: left;
+    margin-top: 120%;
+    font-size: 1.2em;
+    margin-left: 56%;
+    margin-right: 16%;
+
+  }
+/* social media handle section */
+  #socialmidia2 {
+    position: absolute;
+    border: 1px solid;
+    background-color: #000;
+    margin-top: 300%;
+    padding: 7em;
+    padding-right: 49.9%;
+    padding-left: 50%;
+  }
+  #twitter1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 1em;
+    margin-top: 300%;
+    margin-left: -70%;
+  }
+  #twitter2 {
+    color: white;
+    font-size: 1em;
+    margin-top: 303%;
+    margin-left: -67%;
+  }
+  #facebook1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 1em;
+    margin-top: 300%;
+    margin-left: -25%;
+  }
+  #facebook2 {
+    color: white;
+    font-size: 1em;
+    margin-top: 303%;
+    margin-left: -18%;
+  }
+  #instagram1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 1em;
+    margin-top: 300%;
+    margin-left: 25%;
+  }
+  #instagram2 {
+    color: white;
+    font-size: 1em;
+    margin-top: 303%;
+    margin-left: 28%;
+  }
+  #youtube1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 1em;
+    margin-top: 300%;
+    margin-left: 70%;
+  }
+  #youtube2 {
+    color: white;
+    font-size: 1em;
+    margin-top: 303%;
+    margin-left: 75%;
+  }
+  #twitterimage img {
+    position: absolute;
+    width: 50px;
+    height: 5ch;
+    margin-top: 148%;
+    margin-left: -43%;
+    opacity: 0.3;
+  }
+  #facebookimage img {
+    position: absolute;
+    width: 50px;
+    height: 5ch;
+    margin-top: 148%;
+    margin-left: -21%;
+    opacity: 0.3;
+  }
+  #instagramimage img {
+    position: absolute;
+    width: 50px;
+    height: 5ch;
+    margin-top: 148%;
+    margin-left: 3.5%;
+    opacity: 0.3;
+  }
+  #youtubeimage img {
+    position: absolute;
+    width: 50px;
+    height: 5ch;
+    margin-top: 148%;
+    margin-left: 27%;
+    opacity: 0.3;
+  }
+  
+  
+   
+  
+  
+  
