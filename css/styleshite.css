@@ -1099,7 +1099,6 @@ section h6 a {
     height: 5ch;
     margin-top: 148%;
     margin-left: -43%;
-    opacity: 0.3;
   }
   #facebookimage img {
     position: absolute;
@@ -1107,7 +1106,6 @@ section h6 a {
     height: 5ch;
     margin-top: 148%;
     margin-left: -21%;
-    opacity: 0.3;
   }
   #instagramimage img {
     position: absolute;
@@ -1115,7 +1113,6 @@ section h6 a {
     height: 5ch;
     margin-top: 148%;
     margin-left: 3.5%;
-    opacity: 0.3;
   }
   #youtubeimage img {
     position: absolute;
@@ -1123,8 +1120,54 @@ section h6 a {
     height: 5ch;
     margin-top: 148%;
     margin-left: 27%;
-    opacity: 0.3;
   }
+  /* Bootom section */
+  #quicklinks {
+    position: absolute;
+    border: 1px solid;
+    background-color: rgb(2, 28, 2);
+    margin-top: 346%;
+    padding: 30em;
+    padding-right: 49.9%;
+    padding-left: 50%;
+  }
+  #quick {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: right;
+    color: white;
+    margin-left: 25%;
+    font-size: 1em;
+    margin-top: 157%;
+  }
+  #small {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: right;
+    color: white;
+    margin-left: 45%;
+    font-size: 1em;
+    margin-top: 157%;
+  }
+  #news {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float: right;
+    color: white;
+    margin-left: 65%;
+    font-size: 1em;
+    margin-top: 157%;
+  }
+  #removebg img{
+    position: absolute;
+    margin-top: 330%;
+    margin-left: -80%;
+    width: 150px;
+  }
+
   
   
    
