@@ -1167,6 +1167,105 @@ section h6 a {
     margin-left: -80%;
     width: 150px;
   }
+  #altar {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 170%;
+    color: white;
+    margin-left: 5%;
+    margin-right: 75%;
+    line-height: 1.3em;
+  }
+  #news2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 160%;
+    color: white;
+    margin-left: 65%;
+    margin-right: 5%;
+    line-height: 1.3em;
+    
+  }
+  #Email {
+    position: absolute;
+    margin-top: 118%;
+    padding: 1em;
+    margin-left: 31%;
+    width:40%;
+  }
+
+  #subscribe {
+    position: absolute;
+    margin-top: 169.4%;
+    margin-left: 82%;
+    border: 1px solid;
+    background-color: rgb(55, 73, 67);  
+    padding: 0.9em;  
+  }
+  #podcast {
+    margin-top: 175%;
+    margin-left: 55%;
+  }
+  #pod {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 59%;
+    color: cadetblue;
+    border: 1px solid;
+    padding: 0.5em;
+    border-radius: 15px;
+    background-color: color-mix(in oklab, color percentage, color percentage);
+  }
+  #phone {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: white;
+  }
+#email {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 4%;
+  margin-left: 5%;
+  color: white;
+}
+#numb {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 10%;
+
+}
+#addre {
+position: absolute;
+margin-top: 4%;
+margin-left: 10%;
+}
+#direction{
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 5%;
+  border: 1px solid;
+  padding: 0.8em;
+  width: 15%;
+  background-color: rgb(38, 55, 38)
+}
+#direction :hover {
+  color: aquamarine;  
+}
+#foot {
+  position: absolute;
+  margin-top: 157px;
+  text-align: center;
+  border: 1px solid;
+  padding: 1em;
+  color: white;
+  background-color: rgb(38, 55, 38);
+  width: 97.3%;
+}
+
 
   
   
